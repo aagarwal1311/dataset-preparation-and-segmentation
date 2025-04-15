@@ -1,0 +1,3 @@
+# Ignore coco subset folder
+coco_subset/
+.env/
