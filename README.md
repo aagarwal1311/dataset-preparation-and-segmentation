@@ -23,6 +23,7 @@ coco_subset/
 - `unet_model.py`: Defines a simple U-Net model for binary segmentation.
 - `train_unet.py`: Trains U-Net using binary cross-entropy loss and logs training metrics via public Weights & Biases.
 - `requirements.txt`: Lists required Python libraries.
+- `python evaluate_checkpoint.py`: Evaluates the trained model checkpoint on the validation set.
 
 
 ## Usage Setup
@@ -54,6 +55,7 @@ coco_subset/
 
 5. Output
     After training, predicted masks and model checkpoints are saved. 
+    evaluation script: python evaluate_checkpoint.py
     Evaluation includes:
         - Dice Score
         - Binary IoU
